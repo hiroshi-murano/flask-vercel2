@@ -56,8 +56,8 @@ def data_insert(listData, domain, app_id, api_token):
     # print(resp.text)
 
 
-@app.route('/api_02', methods=["POST"])
-def api_02():
+@app.route('/hello', methods=["POST"])
+def hello():
 
     request_data = json.loads(request.data)
 
